@@ -1,17 +1,37 @@
-# 📦 A&S RTX — Patches & Patcher V1 Archive
+<table>
+<tr>
+<td width="80" align="center">📦</td>
+<td>
 
-> **This is the patch archive repository for the A&S Minecraft RTX Community Patcher.**
-> It stores all binary patch files that are regularly updated, plus the original **Patcher V1** source code by Felix-Chaos.
+## A&S RTX Patcher — Patch Archive
+
+*Binary patch files and legacy Patcher V1 source for the A&S RTX Community Patcher*
+
+[![Main Patcher](https://img.shields.io/badge/Main_Patcher-Actions--and--Stuff--RTX--Patcher-2ea44f?style=flat-square&logo=github)](https://github.com/Felix-Chaos/Actions-and-Stuff-RTX-Patcher)
+[![Discord](https://img.shields.io/discord/1432653252171661364?logo=discord&style=flat-square&label=Discord)](https://discord.gg/YrMMmN2kc7)
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🔗 Main Project
+- 📁 Stores all `.xdelta` / `.vcdiff` **binary patch files**, organized by A&S version
+- 🕹️ Preserves the original **Patcher V1** source code by Felix-Chaos
+- 🔄 Updated regularly alongside new A&S releases
 
-The primary patcher (V2, actively maintained) lives here:
+> [!IMPORTANT]
+> This is a **companion repository**. For downloads, releases, and documentation, head to the **[Main Patcher Repo →](https://github.com/Felix-Chaos/Actions-and-Stuff-RTX-Patcher)**
 
-### ➡️ [Felix-Chaos/A-S-Minecraft-RTX-Community-Patcher](https://github.com/Felix-Chaos/A-S-Minecraft-RTX-Community-Patcher)
+---
 
-Head there for **downloads, releases, documentation, and support**.
+## 📁 Repository Overview
+
+| Repository | Description | Link |
+| :--- | :--- | :---: |
+| **A&S RTX Patcher** | Main patcher — Marketplace & Zip support, GUI, automated patching | [Repo](https://github.com/Felix-Chaos/Actions-and-Stuff-RTX-Patcher) |
+| **Archive** | All binary patch files and legacy V1 patcher source | **This Repo** |
+| **External Tools** | Brarchive extractor, and other tools for the patcher! | [Repo](https://github.com/Felix-Chaos/Actions-and-Stuff-RTX-Patcher-External_Tools) |
 
 ---
 
@@ -41,7 +61,6 @@ Patches/
 └── ... (more added with each A&S update)
 ```
 
-> **⚠️ Do not unzip the patch files.** They are consumed directly by the patcher tool.
 
 Each patch folder contains:
 - **`decrypted.vcdiff`** — Patch for the decrypted ZIP/MCPACK source
@@ -51,26 +70,14 @@ Each patch folder contains:
 
 ## 🕹️ Patcher V1
 
-The `Patcher V1/` folder contains the original patcher written by **Felix-Chaos** (not Demente Parker).
+The `Patcher V1/` folder contains the original patcher written by **Felix-Chaos**.
 
-This is a Python-based patcher (`AnSRTXPatcher.py`) that can be built into a standalone `.exe` using the included `build_patcher.bat` and PyInstaller spec file. V1 is preserved here as a historical reference and for users who need a lightweight alternative to V2.
+This is a Python-based patcher (`AnSRTXPatcher.py`) that can be built into a standalone `.exe` using the included `build_patcher.bat` and PyInstaller spec file. V1 is preserved here as a historical reference.
 
-> **For the current, actively maintained patcher, always use V2 from the [main repository](https://github.com/Felix-Chaos/A-S-Minecraft-RTX-Community-Patcher).**
-
----
-
-## ℹ️ Relationship to the Main Repo
-
-```
-Felix-Chaos/A-S-Minecraft-RTX-Community-Patcher  ← Main patcher (V2), releases, docs
-
-Felix-Chaos/A-S-Patcher-Patches                  ← THIS REPO (patch file archive)
-```
-
-This is a companion archive that keeps all patch files in one place, separate from the main patcher repository. Patches are maintained and updated here independently. You can always grab the latest patch files manually from this repo if needed.
+> [!NOTE]
+> For the current, actively maintained patcher, always use the latest release from the **[main repository](https://github.com/Felix-Chaos/Actions-and-Stuff-RTX-Patcher)**.
 
 ---
 
-## ⚖️ Disclaimer
-
-This project is community-built for personal & educational use only. It is not affiliated with or endorsed by Oreville Studios or Mojang/Microsoft. Original A&S assets are not distributed here — only binary diff files that require a valid copy of A&S to apply.
+> [!NOTE]
+> **Disclaimer:** This project is community-built for personal & educational use only. It is not affiliated with or endorsed by Oreville Studios or Mojang/Microsoft. Original A&S assets are not distributed here — only binary diff files that require a valid copy of A&S to apply.
