@@ -1,0 +1,8 @@
+Actions_and_Stuff_RTX_Patcher v2.1/dist/Actions_and_Stuff_RTX_Patcher.exe
+*.pyd
+*.pyc
+Actions_and_Stuff_RTX_Patcher v2.1/libs/customtkinter/assets/icons/.DS_Store
+*.pyz
+*.toc
+Actions_and_Stuff_RTX_Patcher v2.1/build/AnS_RTX_Patcher_V2.exe/AnS_RTX_Patcher_V2.pkg
+*.pkg
