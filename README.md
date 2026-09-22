@@ -19,8 +19,11 @@
 ---
 
 - 📁 Stores all `.xdelta` / `.vcdiff` **binary patch files**, organized by A&S version
-- 🕹️ Preserves the original **Patcher V1** source code by Felix-Chaos
-- 🔄 Updated regularly alongside new A&S releases
+- 🕹️ Preserves the original **Patcher V1** source and the legacy **Patcher v2.1** Python source
+- 📦 **Archived** — kept for historical reference only
+
+> [!WARNING]
+> **This repository is archived and no longer receives new patches.** New A&S RTX patches are now uploaded to the **[AS-RTX-Patch-Library →](https://github.com/Felix-Chaos/AS-RTX-Patch-Library)**. Everything here (patches, Patcher V1, Patcher v2.1) is preserved as-is for historical reference.
 
 > [!IMPORTANT]
 > This is a **companion repository**. For downloads, releases, and documentation, head to the **[Main Patcher Repo →](https://github.com/Felix-Chaos/Actions-and-Stuff-RTX-Patcher)**
@@ -32,7 +35,8 @@
 | Repository | Description | Link |
 | :--- | :--- | :---: |
 | **A&S RTX Patcher** | Main patcher — Marketplace & Zip support, GUI, automated patching | [Repo](https://github.com/Felix-Chaos/Actions-and-Stuff-RTX-Patcher) |
-| **Archive** | All binary patch files and legacy V1 patcher source | **This Repo** |
+| **AS-RTX-Patch-Library** | Current, actively updated home for all new binary patch files | [Repo](https://github.com/Felix-Chaos/AS-RTX-Patch-Library) |
+| **Archive** *(this repo)* | Historical patch files and legacy patcher source — no longer updated | **This Repo** |
 | **External Tools** | Brarchive extractor, and other tools for the patcher! | [Repo](https://github.com/Felix-Chaos/Actions-and-Stuff-RTX-Patcher-External_Tools) |
 
 ---
@@ -41,14 +45,18 @@
 
 | Folder | Contents |
 | :--- | :--- |
-| `Patches/` | All `.xdelta` / `.vcdiff` patch files, organized by A&S version — updated regularly |
+| `Patches/` | All `.xdelta` / `.vcdiff` patch files, organized by A&S version — historical, no longer updated |
 | `Patcher V1/` | The original V1 patcher source code (`AnSRTXPatcher.py`) by **Felix-Chaos** |
+| `Patcher v2.1 Python/` | The legacy V2.1 Python patcher source, docs, and tutorial |
 
 ---
 
 ## 🗂️ Patches Archive
 
-The `Patches/` folder is the living archive of all community-maintained RTX patch files. Each subfolder corresponds to an A&S version:
+> [!NOTE]
+> This folder is frozen. New patches are no longer added here — see the **[AS-RTX-Patch-Library →](https://github.com/Felix-Chaos/AS-RTX-Patch-Library)** for current patches.
+
+The `Patches/` folder is the archive of all community-maintained RTX patch files up to the point this repo was archived. Each subfolder corresponds to an A&S version:
 
 ```
 Patches/
@@ -75,6 +83,15 @@ Each patch folder contains:
 The `Patcher V1/` folder contains the original patcher written by **Felix-Chaos**.
 
 This is a Python-based patcher (`AnSRTXPatcher.py`) that can be built into a standalone `.exe` using the included `build_patcher.bat` and PyInstaller spec file. V1 is preserved here as a historical reference.
+
+> [!NOTE]
+> For the current, actively maintained patcher, always use the latest release from the **[main repository](https://github.com/Felix-Chaos/Actions-and-Stuff-RTX-Patcher)**.
+
+---
+
+## 🕹️ Patcher v2.1
+
+The `Patcher v2.1 Python/` folder contains the legacy V2.1 Python patcher source, along with its docs and tutorial. It is preserved here as a historical reference alongside Patcher V1.
 
 > [!NOTE]
 > For the current, actively maintained patcher, always use the latest release from the **[main repository](https://github.com/Felix-Chaos/Actions-and-Stuff-RTX-Patcher)**.
