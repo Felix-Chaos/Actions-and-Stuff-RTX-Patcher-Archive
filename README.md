@@ -46,7 +46,7 @@
 | Folder | Contents |
 | :--- | :--- |
 | `Patches/` | All `.xdelta` / `.vcdiff` patch files, organized by A&S version — historical, no longer updated |
-| `Patcher V1/` | The original V1 patcher source code (`AnSRTXPatcher.py`) by **Felix-Chaos** |
+| `Patcher V1/` | The original V1 patcher source code (`AnSRTXPatcher.py`) |
 | `Patcher v2.1 Python/` | The legacy V2.1 Python patcher source, docs, and tutorial |
 
 ---
